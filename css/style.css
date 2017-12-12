@@ -178,7 +178,7 @@
     background: white;
     border: 5px solid #f4f4f4;
     display: none;
-   }
+}
 
 .firstsub {
     width: 680px;
@@ -253,7 +253,7 @@
 .left-menu > li {
     border: 1px solid #eee;
     margin-bottom: -1px;
-    }
+}
 
 .left-menu a {
     display: inline-block;
@@ -291,24 +291,20 @@
 }
 
 .plus {
-   float: right;
+    float: right;
     font-weight: bold;
 }
 
 .main-slider {
     width: 962px;
     height: 374px;
+    margin: 50px auto;
     overflow: hidden;
 }
 
 .second-slider {
     max-width: 962px;
     margin-top: -20px;
-}
-
-.main-slider {
-    margin: 50px auto;
-
 }
 
 .main-slider-container {
@@ -402,7 +398,7 @@
     display: inline-block;
     margin-right: 20px;
     padding: 5px;
-    }
+}
 
 .activetab {
     color: #b09e66;
@@ -431,18 +427,20 @@
 
 .tab-item {
     display: inline-block;
-    width: 16%;
+    width: 210px;
     background: #FFF;
     padding: 10px;
     vertical-align: top;
     margin-bottom: 10px;
-    }
+    margin-right: 5px;
+    height: 380px;
+}
 
 
 
 .tab-img img {
     width: 190px;
-   }
+}
 
 .tab-name {
     font-size: 12px;
@@ -466,4 +464,32 @@
     font-size: 11px;
     text-transform: uppercase;
     border-radius: 2px;
+}
+
+.main-tab {
+    width: 1290px;
+
+    overflow: hidden;
+}
+
+.tab-container {
+    max-width: 1320px;
+    position: relative;
+}
+
+#tabline {
+    width: 2580px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+#tabline .tab-item {
+    float: left;
+}
+
+#tabline::after {
+    content: "";
+    display: block;
+    clear: both;
 }
